@@ -1,6 +1,6 @@
 {
   "name": "extplug-delete-own-messages",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "ExtPlug plugin that allows you to delete your own messages (...if you're staff.)",
   "keywords": [

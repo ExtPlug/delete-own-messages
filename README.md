@@ -11,7 +11,7 @@ You can install this plugin by going to your ExtPlug settings menu, pressing
 "Install Plugin", and entering this Plugin URL:
 
 ```
-[YOUR HOST URL HERE];extplug/delete-own-messages/main
+https://extplug.github.io/delete-own-messages/build/delete-own-messages;extplug/delete-own-messages/main
 ```
 
 ## Building
