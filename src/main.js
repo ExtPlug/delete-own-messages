@@ -6,6 +6,12 @@ define(function (require, exports, module) {
   const Lang = require('lang/Lang');
   const $ = require('jquery');
 
+  const deletable = {
+    message: true,
+    mention: true,
+    emote: true
+  }
+
   const DeleteOwnMessages = Plugin.extend({
     name: 'Delete Own Messages',
     description: 'Allows you to delete your own messages (...if you\'re staff.)',
@@ -24,6 +30,7 @@ define(function (require, exports, module) {
         if (user.role >= API.ROLE.BOUNCER &&
             message.uid &&
             message.cid &&
+            deletable[message.type] &&
             el.find('.delete-button').length === 0) {
           let deleteButton = $('<div />')
             .addClass('delete-button')
