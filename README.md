@@ -1,6 +1,8 @@
 Delete Own Messages
 ===================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/extplug/delete-own-messages.svg)](https://greenkeeper.io/)
+
 ExtPlug plugin that allows you to delete your own messages (...if you're staff.)
 
 ## Installation
